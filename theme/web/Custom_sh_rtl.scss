@@ -1,0 +1,779 @@
+[dir="rtl"] .c-subheader {
+    background: #e4edee;
+    width: 25%;
+    padding: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 35px;
+    margin-top: -16px;
+    margin-right: -15px;
+    box-shadow: 2px 2px 2px #c6c6d0;
+}
+[dir="rtl"] .form-group .control-label {
+text-align: right;
+}
+[dir="rtl"] .wizard-step {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+}
+[dir="rtl"] .mx-tabcontainer-badge {
+    margin-right: 8px;
+    border-radius: 12px;
+    background-color: #264ae5;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 4px 8px;
+}
+[dir="rtl"] .filter-container .filter-input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 0px;
+}
+[dir="rtl"] .filter-selector .filter-selector-content .filter-selector-button {
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 100%;
+    border-right: 1px solid #e7e7e9;
+    border-left: none;
+}
+[dir="rtl"] .mx-grid-search-controls .mx-button + .mx-button{
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+[dir="rtl"] .calen-con .btn-group > .btn{
+    float: left;
+}
+[dir="rtl"] .filter-container .btn-calendar {
+    margin-right: 3px;
+}
+.wizard-step, [dir="rtl"] .wizard-step{
+    @media (min-width: 300px)
+    {
+padding: 0px;
+    }
+}
+.wizfor-con .mx-text, [dir="rtl"] .wizfor-con .mx-text{
+    @media (min-width: 300px)
+    {
+display: none;
+    }
+    @media (min-width: 600px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 800px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 900px)
+    {
+        display: block;
+        font-size: 14px;
+    }
+}
+.wizardstep_active, [dir="rtl"] .wizardstep_active{
+    @media (min-width: 300px)
+    {
+    font-size: 14px;
+    }
+    @media (min-width: 900px)
+    {
+        font-size: 18px;
+    }
+}
+.c-wizard button {
+    @media (min-width: 300px)
+    {
+padding: 10px 15px;
+    }
+    @media (min-width: 900px)
+    {
+padding: 18px 25px;
+    }
+}
+.wizard-circle .wizard-step::before,  [dir="rtl"] .wizard-circle .wizard-step::before{
+    @media (min-width: 300px)
+    {
+top: 20px;
+    }
+    @media (min-width: 900px)
+    {
+top: 32px;
+    }
+}
+.wizsix-con .mx-text, [dir="rtl"].wizsix-con .mx-text{
+    @media (min-width: 300px)
+    {
+display: none;
+    }
+    @media (min-width: 600px)
+    {
+        display: block;
+        font-size: 8px;
+    }
+    @media (min-width: 800px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 900px)
+    {
+        display: block;
+        font-size: 12px;
+    }
+    @media (min-width: 1200px)
+    {
+        display: block;
+        font-size: 14px;
+    }
+}
+.wizfor-con .wizard-step-text
+{
+    @media (min-width: 300px)
+    {
+display: none;
+    }
+    @media (min-width: 600px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 800px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 900px)
+    {
+        display: block;
+        font-size: 14px;
+    }   
+}
+.wizfor-con .wizard-step-number,  [dir="rtl"] .wizfor-con [dir="rtl"] .wizard-step-number{
+    @media (min-width: 300px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    @media (min-width: 600px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    @media (min-width: 800px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    @media (min-width: 900px)
+    {
+        width: 64px;
+        height: 64px;
+        font-size: 24px;
+    }
+}
+[dir="rtl"].wizfor-con [dir="rtl"].wizard-step-text
+{
+    @media (min-width: 300px)
+    {
+display: none;
+    }
+    @media (min-width: 600px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 800px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 900px)
+    {
+        display: block;
+        font-size: 14px;
+    }   
+}
+.wizsix-con .wizard-step-text, [dir="rtl"].wizsix-con .wizard-step-text{
+    @media (min-width: 300px)
+    {
+display: none;
+    }
+    @media (min-width: 600px)
+    {
+        display: block;
+        font-size: 8px;
+    }
+    @media (min-width: 800px)
+    {
+        display: block;
+        font-size: 11px;
+    }
+    @media (min-width: 900px)
+    {
+        display: block;
+        font-size: 12px;
+    }
+    @media (min-width: 1200px)
+    {
+        display: block;
+        font-size: 14px;
+    }
+}
+.wizsix-con .wizard-step-number,  [dir="rtl"] .wizsix-con [dir="rtl"] .wizard-step-number{
+    @media (min-width: 300px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    @media (min-width: 600px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    @media (min-width: 800px)
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    @media (min-width: 900px)
+    {
+        width: 64px;
+        height: 64px;
+        font-size: 24px;
+    }
+}
+[dir="rtl"] .c-cards .dashtext {
+    
+    font-size: 18px;
+    @media (min-width: 300px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 350px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 400px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 900px)
+    {
+        font-size: 12px;
+    }
+    @media (min-width: 1024px)
+    {
+        font-size: 12px;
+    }
+    @media (min-width: 1200px)
+    {
+        font-size: 16px;
+    }
+    @media (min-width: 1280px)
+    {
+        font-size: 18px;
+    }
+
+}
+.c-cards .dashtext, .c-cards .indashtext 
+{
+    font-size: 20px;
+    @media (min-width: 300px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 350px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 400px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 900px)
+    {
+        font-size: 13px;
+    }
+    @media (min-width: 1024px)
+    {
+        font-size: 13px;
+    }
+    @media (min-width: 1200px)
+    {
+        font-size: 17px;
+    }
+    @media (min-width: 1280px)
+    {
+        font-size: 19px;
+    }
+}
+.c-cards h3, .numcon h3
+{
+    font-size: 24px;
+    @media (min-width: 300px)
+    {
+        font-size: 15px;
+    }
+    @media (min-width: 900px)
+    {
+        font-size: 15px;
+    }
+    @media (min-width: 1024px)
+    {
+        font-size: 19px;
+    }
+    @media (min-width: 1200px)
+    {
+        font-size: 21px;
+    }
+    @media (min-width: 1280px)
+    {
+        font-size: 24px;
+    }
+}
+[dir="rtl"] .c-cards .indashtext {
+    
+    font-size: 18px;
+    @media (min-width: 300px)
+    {
+        font-size: 12px;
+    }
+    @media (min-width: 350px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 400px)
+    {
+        font-size: 14px;
+    }
+    @media (min-width: 900px)
+    {
+        font-size: 12px;
+    }
+    @media (min-width: 1024px)
+    {
+        font-size: 12px;
+    }
+    @media (min-width: 1200px)
+    {
+        font-size: 15px;
+    }
+    @media (min-width: 1280px)
+    {
+        font-size: 16px;
+    }
+
+}
+.c-box {
+@media (min-width: 300px)
+{
+    margin: 10px 0px 0px 0px;
+}
+@media (min-width: 600px)
+{
+    margin: 10px 0px 0px 0px;
+}
+@media (min-width: 900px)
+{
+    margin: 10px 30px 0px 30px;
+}
+}
+.c-newscard {
+@media (min-width: 300px){
+    margin: 10px 0px;
+    min-height: auto;
+}
+@media (min-width: 600px){
+    margin: 10px 0px;
+    min-height: auto;
+}
+@media (min-width: 700px){
+    margin: 10px 0px;
+    min-height: 375px;
+}
+@media (min-width: 900px){
+    margin: 10px 0px;
+    min-height: 375px;
+}
+@media (min-width: 1200px){
+    margin: 10px 0px;
+    min-height: 375px;
+}
+}
+
+.headermob-con{
+    padding: 10px;
+}
+#harmmenu-icon {
+    
+    cursor: pointer;
+   padding-top: 10px;
+    vertical-align: middle;
+}
+ .haricon
+ {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    cursor: pointer;
+    
+ }
+ .harm-submenu
+ {
+     display: none;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+  
+ }
+ @media (max-width:992px)
+ {
+     .c-nav
+     {
+        overflow-y: scroll; 
+     }
+     
+ }
+ @media (max-width: 767px)
+ {
+    .c-leftnav
+    {
+        display: none;
+    }
+ }
+ #navbar-close {
+    padding-top: 10px;
+    vertical-align: middle;
+  }
+  .flagimg
+  {
+      padding-top: 15px;
+      float:right !important; 
+       
+  }
+[dir="rtl"].flagimg{
+    float:left !important;
+}
+.flagimg .mx-link img{
+    vertical-align: middle;
+    height: 28px;
+    margin-right: 0px; 
+}
+.harflag-con
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.harmcona
+{
+    float:right !important;    
+}
+[dir="rtl"] .harmcona{
+float:left !important;
+}
+/* Payment page */
+.paycon
+{
+    background: white !important;
+    @media (max-width: 767px)
+    {
+        background: #ffffff !important;
+    }
+}
+.paydetail
+{
+background: white;
+border-radius: 10px;
+box-shadow: 0 0 8px 0 rgb(242 247 251 / 20%), 0 0 20px 0 rgb(242 247 251 / 19%);
+padding: 20px;
+}
+@media(max-width:767px){
+.paydetail
+{
+padding: 10px 0px !important;
+ 
+}
+.form-horizontal .form-group.no-columns {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}
+.pay-check input[type=checkbox]:before {
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-left: -2px;
+    content: "";
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.pay-check input[type=checkbox] {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 !important;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+input[type=checkbox]:after {
+    width: 8px;
+    height: 4px;
+    margin: 5px 4px;
+    transform: rotate(-45deg);
+    pointer-events: none;
+    border: 2px solid #8c8c8c;
+    border-top: 0;
+    border-right: 0;
+}
+.pt10
+{
+    padding-top: 10px;
+}
+.credetaila
+{
+background: white;
+padding: 20px 30px;
+margin-top: 20px;
+/*border: 1px solid #e7e7e9;*/
+@media (max-width: 767px)
+    {
+padding: 10px;
+        .form-group
+        {
+            margin: 10px 4px;
+        }
+        .form-control {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        }
+    }
+}
+.pt30
+{
+    padding-top: 38px;
+}
+.credetaila .ent
+{
+    font-size: 16px;
+}
+.entimg img
+{
+    display:inline-block !important;
+    padding-left: 20px;
+    @media (max-width:767px) {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+}
+.entimga
+{
+float: right;
+}
+[dir="rtl"] .entimga
+{
+float: left;
+}
+.entimga img
+{
+    display:inline-block !important;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.payhecon
+{
+    background: white;
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, rgb(58, 123, 213), rgb(0, 210, 255) );
+  border-image-slice: 1;
+}
+.credetaila .circlebox
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px 12px;
+    
+}
+.ptt10
+{
+    margin: 10px;
+    @media (max-width:767px)
+    {
+        margin: 10px 5px;
+    }
+}
+.paycon .mx-dataview-controls {
+border-top: none;
+}
+.total-text
+{
+color: #133584;
+padding-right: 15px;
+float: right;
+padding-bottom: 15px;
+}
+[dir="rtl"] .total-text
+{
+float: left;
+}
+.paycen
+{
+float: right;
+}
+[dir="rtl"] .paycen
+{
+float: left;
+}
+@media (max-width: 767px)
+{
+    .py-bk
+    {
+        background:#f2f5f8;
+        padding: 0 10px 10px 10px !important;
+    }
+    .py-bka
+    {
+        background:#f2f5f8;
+        padding: 10px 10px 10px 10px;
+    }
+    .paycon h4
+    {
+        font-size: 16px;
+    }
+    .pytext
+    {
+        padding-left: 15px;
+    }
+    .mx-navigationlist li.auditline.mx-navigationlist-item
+    {
+    border-style: none none none none;
+    
+    }
+}
+.dubpay, [dir="rtl"] .dubpaya
+{
+    float: left;
+}
+.dubpaya, [dir="rtl"] .dubpay{
+    float: right;
+}
+.dubpay, [dir="rtl"] .dubpay
+{
+    width: 17%;
+    @media (min-width: 300px)
+    {
+        width: 75%;
+    }
+    @media (min-width: 600px)
+    {
+        width: 35%;
+    }
+    @media (min-width: 800px)
+    {
+        width: 35%;
+    }
+    @media (min-width: 900px)
+    {
+        width: 17%;
+    }
+
+}
+.dubpaya, [dir="rtl"] .dubpay{
+ width: 22%;
+ @media (min-width: 300px)
+    {
+        width: 90%;
+    }
+    @media (min-width: 600px)
+    {
+        padding-top: 20px;
+        width: 50%;
+    }
+    @media (min-width: 800px)
+    {
+        width: 35%;
+        padding-top: 20px;
+    }
+    @media (min-width: 900px)
+    {
+        width: 22%;
+        padding-top: 20px;
+    }
+}
+@media (max-width: 767px)
+{
+    .dubpaya, [dir="rtl"] .dubpaya
+    {
+        padding-top: 20px;
+    }  
+.entimga img:nth-child(3)
+{
+    display:none !important;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.entimga img:nth-child(4)
+{
+    display:none !important;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+}
+
+/* Payment page */
+@media (max-width:768px){
+    .c-navhide{
+                display: block;
+    }
+}
+
+.cham{
+    display: flex;
+}
+.userbg {
+    background: #e4edf2;
+    margin: 12px 8px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 5px;
+    border-radius: 40px;
+    // box-shadow: 1px 0px 5px 0px #848484;
+  }
+
+  .userimg{
+    border: 4px solid rgb(210 210 210);
+    border-radius: 50px;
+    width: 60px;
+    margin-left: 36px;
+  }

@@ -1,0 +1,11 @@
+Buildfile: C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 46 files to C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment
+     [copy] Copying 64 files to C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\model\lib\userlib
+     [copy] Copying 10 files to C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

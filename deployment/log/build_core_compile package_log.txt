@@ -1,0 +1,18 @@
+Buildfile: C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 431 source files to C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\run\bin
+    [javac] C:\Users\gopin\Documents\Mendix\Department Of Health-main\javasource\audittrail\log\diff_match_patch.java:1806: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    [javac]   public LinkedList<Patch> patch_make(String text1, String text2,
+    [javac]                            ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 1 warning
+
+package:
+      [jar] Building jar: C:\Users\gopin\Documents\Mendix\Department Of Health-main\deployment\model\bundles\project.jar
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+
+

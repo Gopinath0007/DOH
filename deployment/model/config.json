@@ -1,0 +1,36 @@
+{
+  "Configuration": {
+    "DatabaseName": "default",
+    "DatabasePassword": "",
+    "DatabaseType": "HSQLDB",
+    "DatabaseHost": "",
+    "DatabaseUserName": "",
+    "DatabaseUseIntegratedSecurity": "False",
+    "ApplicationRootUrl": "http://localhost:8087/",
+    "ScheduledEventExecution": "None"
+  },
+  "Constants": {
+    "MyFirstModule.GroupID": "e46fa714-82aa-4d06-9827-052d2423c690",
+    "MyFirstModule.ReportID_Notification": "af9250fb-df7a-4583-a2bc-aa020aa463eb",
+    "MyFirstModule.DataSetID_Notification": "b960e8ee-dcb3-46ba-9f81-fceac35367de",
+    "MyFirstModule.ReportID_Certificate": "8ae95611-602b-4bbd-8c0c-2bf3b94560c8",
+    "MyFirstModule.DataSetID_Certificate": "20be2cb7-3b4c-483a-aebb-99904ff95463",
+    "MyFirstModule.EmbedURL_Notification": "https://app.powerbi.com/reportEmbed?reportId=af9250fb-df7a-4583-a2bc-aa020aa463eb&groupId=e46fa714-82aa-4d06-9827-https://app.powerbi.com/reportEmbed?reportId=af9250fb-df7a-4583-a2bc-aa020aa463eb&groupId=e46fa714-82aa-4d06-9827-052d2423c690&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6dHJ1ZSwiYW5ndWxhck9ubHlSZXBvcnRFbWJlZCI6dHJ1ZSwiY2VydGlmaWVkVGVsZW1ldHJ5RW1iZWQiOnRydWUsInVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlLCJza2lwWm9uZVBhdGNoIjp0cnVlfX0%3d",
+    "Atlas_Core.Atlas_Core_Version": "3.0.7",
+    "Atlas_Web_Content.Atlas_Web_Content_Version": "3.0.6",
+    "AuditTrail.IncludeCalculatedAttributes": "False",
+    "AuditTrail.LogSessionTimeZoneDateNotation": "True",
+    "AuditTrail.ServerTimeZone": "Etc/UTC",
+    "AuditTrail.LogAllMembersOnCreate": "True",
+    "AuditTrail.LogServerTimeZoneDateNotation": "True",
+    "AuditTrail.LogLineDateFormat": "MM/dd/yyyy",
+    "AuditTrail.IncludeOnlyChangedAttributes": "True",
+    "AuditTrail.CreateLogObjectWithoutMemberChanges": "False",
+    "CommunityCommons.MergeMultiplePdfs_MaxAtOnce": "10",
+    "ExcelImporter.EnableExternalEntities": "False",
+    "ExcelImporter.ParseEmptyCells": "False",
+    "NanoflowCommons.Nanoflow_Commons_Version": "2.1.0",
+    "WebActions.WebActions_Version": "2.3.0"
+  },
+  "AdminPassword": "1"
+}

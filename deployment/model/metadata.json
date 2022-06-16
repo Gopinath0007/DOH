@@ -1,0 +1,246 @@
+{
+  "RuntimeVersion": "9.10.1.37625",
+  "ProjectID": "2938fc2d-09e2-4f53-86fc-9ea990c146e8",
+  "ProjectName": "Department Of Health",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "2771a7ed-99bd-4c58-9c53-6c13beabc16a",
+        "c11ee553-3bc6-4649-b618-1b7b1fc30699",
+        "d9786afc-daed-450b-8483-6795c4004394",
+        "3aa0556f-9546-4406-bdce-d5bb502e4701",
+        "02729ea8-d38b-4a22-824c-e2405c048d3b",
+        "d51a7e54-8326-441c-8e4f-3046c82f04f9",
+        "a0a1dbd4-bf3e-49b5-976d-432c2ff95582",
+        "5643041a-2421-4da4-87c0-46b118f98c0e",
+        "f6158404-3b39-4e8a-8006-000274813c26",
+        "01487c8f-79e7-44ce-82a4-044e377ffa6e",
+        "e2ee9f45-908a-4f9f-ba4b-616efc8a3941",
+        "6602c4b5-5fca-4fd4-ae79-2db90b212330"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "User"
+    },
+    "2771a7ed-99bd-4c58-9c53-6c13beabc16a": {
+      "Name": "CSDofficer"
+    },
+    "c11ee553-3bc6-4649-b618-1b7b1fc30699": {
+      "Name": "ADPoliceUser"
+    },
+    "d9786afc-daed-450b-8483-6795c4004394": {
+      "Name": "Chairman"
+    },
+    "3aa0556f-9546-4406-bdce-d5bb502e4701": {
+      "Name": "DOHLegal"
+    },
+    "02729ea8-d38b-4a22-824c-e2405c048d3b": {
+      "Name": "HealthCareFacilityAdmin"
+    },
+    "d51a7e54-8326-441c-8e4f-3046c82f04f9": {
+      "Name": "HealthCareProfessional"
+    },
+    "a0a1dbd4-bf3e-49b5-976d-432c2ff95582": {
+      "Name": "MemberOne"
+    },
+    "5643041a-2421-4da4-87c0-46b118f98c0e": {
+      "Name": "PublicUser"
+    },
+    "f6158404-3b39-4e8a-8006-000274813c26": {
+      "Name": "CommitteeReview",
+      "ManageableRoles": [
+        "2771a7ed-99bd-4c58-9c53-6c13beabc16a"
+      ]
+    },
+    "01487c8f-79e7-44ce-82a4-044e377ffa6e": {
+      "Name": "ICMDReview"
+    },
+    "e2ee9f45-908a-4f9f-ba4b-616efc8a3941": {
+      "Name": "CommitteeChairmanApproval"
+    },
+    "6602c4b5-5fca-4fd4-ae79-2db90b212330": {
+      "Name": "DepartmentManagerApproval"
+    }
+  },
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "Constants": [
+    {
+      "Name": "MyFirstModule.DataSetID_Certificate",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "20be2cb7-3b4c-483a-aebb-99904ff95463"
+    },
+    {
+      "Name": "MyFirstModule.DataSetID_Notification",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "b960e8ee-dcb3-46ba-9f81-fceac35367de"
+    },
+    {
+      "Name": "MyFirstModule.EmbedURL_Notification",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "https://app.powerbi.com/reportEmbed?reportId=af9250fb-df7a-4583-a2bc-aa020aa463eb&groupId=e46fa714-82aa-4d06-9827-https://app.powerbi.com/reportEmbed?reportId=af9250fb-df7a-4583-a2bc-aa020aa463eb&groupId=e46fa714-82aa-4d06-9827-052d2423c690&w=2&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUlORElBLUNFTlRSQUwtQS1QUklNQVJZLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0IiwiZW1iZWRGZWF0dXJlcyI6eyJtb2Rlcm5FbWJlZCI6dHJ1ZSwiYW5ndWxhck9ubHlSZXBvcnRFbWJlZCI6dHJ1ZSwiY2VydGlmaWVkVGVsZW1ldHJ5RW1iZWQiOnRydWUsInVzYWdlTWV0cmljc1ZOZXh0Ijp0cnVlLCJza2lwWm9uZVBhdGNoIjp0cnVlfX0%3d"
+    },
+    {
+      "Name": "MyFirstModule.GroupID",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "e46fa714-82aa-4d06-9827-052d2423c690"
+    },
+    {
+      "Name": "MyFirstModule.ReportID_Certificate",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "8ae95611-602b-4bbd-8c0c-2bf3b94560c8"
+    },
+    {
+      "Name": "MyFirstModule.ReportID_Notification",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "af9250fb-df7a-4583-a2bc-aa020aa463eb"
+    },
+    {
+      "Name": "Atlas_Core.Atlas_Core_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "3.0.7"
+    },
+    {
+      "Name": "Atlas_Web_Content.Atlas_Web_Content_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "3.0.6"
+    },
+    {
+      "Name": "AuditTrail.CreateLogObjectWithoutMemberChanges",
+      "Type": "Boolean",
+      "Description": "If none of the members have been changed, this property determines whether a commit will still generate a log record populated only with the `changed date` and `changed by` fields.",
+      "DefaultValue": "False"
+    },
+    {
+      "Name": "AuditTrail.IncludeCalculatedAttributes",
+      "Type": "Boolean",
+      "Description": "This determines if the module should resolve calculated attributes and compare if the result has changed since the last commit.",
+      "DefaultValue": "False"
+    },
+    {
+      "Name": "AuditTrail.IncludeOnlyChangedAttributes",
+      "Type": "Boolean",
+      "Description": "This determines if the module should create a log line for every single member every time it initiates the Audit, or if it should only log the changed members.",
+      "DefaultValue": "True"
+    },
+    {
+      "Name": "AuditTrail.LogAllMembersOnCreate",
+      "Type": "Boolean",
+      "Description": "This property only affects the scenario when IncludeOnlyChangedAttributes is false. This indicates if the application will create a log line for all attributes when the record is created (regardless of whether the value changed)",
+      "DefaultValue": "True"
+    },
+    {
+      "Name": "AuditTrail.LogLineDateFormat",
+      "Type": "String",
+      "Description": "This constant determines the format to be used to convert date attributes to strings. It uses the same pattern as used by the Parse & Format Date Function Calls of Mendix (see https://docs.mendix.com/refguide/parse-and-format-date-function-calls).",
+      "DefaultValue": "MM/dd/yyyy"
+    },
+    {
+      "Name": "AuditTrail.LogServerTimeZoneDateNotation",
+      "Type": "Boolean",
+      "Description": "This determines if the date should be audited in the **ServerTimeZone**. If both the session time zone and **ServerTimeZone** are enabled, you will see two dates in the audit overview.",
+      "DefaultValue": "True"
+    },
+    {
+      "Name": "AuditTrail.LogSessionTimeZoneDateNotation",
+      "Type": "Boolean",
+      "Description": "This determines if the date should be audited in the session time zone of the user that makes the change. If both the session time zone and the server time zone are enabled, you will see two dates in the audit overview.",
+      "DefaultValue": "True"
+    },
+    {
+      "Name": "AuditTrail.ServerTimeZone",
+      "Type": "String",
+      "Description": "This the time zone in which the server time zone is printed. This will be a static time zone and should match the notation as used in Java.",
+      "DefaultValue": "Etc/UTC"
+    },
+    {
+      "Name": "CommunityCommons.MergeMultiplePdfs_MaxAtOnce",
+      "Type": "Integer",
+      "Description": "Restricted to 10 files at once for Mendix Cloud v4 compatibility. If you need to merge more than 10 files increase the number here. Setting the value to <=0 means unlimited.\r\n\r\nNote: We very strongly recommend to not increase the number for applications running in Mendix Cloud v4.",
+      "DefaultValue": "10"
+    },
+    {
+      "Name": "ExcelImporter.EnableExternalEntities",
+      "Type": "Boolean",
+      "Description": "Enables the parsing of external entities from the DTD. This is turned off by default.",
+      "DefaultValue": "False"
+    },
+    {
+      "Name": "ExcelImporter.ParseEmptyCells",
+      "Type": "Boolean",
+      "Description": "Set this constant to True to allow parsing empty cells with microflow when importing Excel files.\r\n\r\nIf True, \"parse with\" microflow will be called for empty cells.\r\nIf False (default), the microflow will be called only for cells with data.",
+      "DefaultValue": "False"
+    },
+    {
+      "Name": "NanoflowCommons.Nanoflow_Commons_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "2.1.0"
+    },
+    {
+      "Name": "WebActions.WebActions_Version",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "2.3.0"
+    }
+  ],
+  "ScheduledEvents": [],
+  "DataBrokerConfiguration": {
+    "publishedServices": []
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/ws-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/rest/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/rest-doc/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api-doc/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/p/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    }
+  ]
+}

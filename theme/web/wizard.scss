@@ -1,0 +1,32 @@
+.wizardbtn{
+        height: 46px;
+        width: 49px;
+        background-color: 	#40E0D0;
+        border-radius: 50%;
+        display: inline-block;
+       
+}     
+.wizardbtn_active{
+    height: 46px;
+    width: 49px;
+    border-radius: 50%;
+    border: 1px solid #eaad24;
+    background-color: transparent;
+}
+.wizardcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+
+.wizardtext{
+    padding: 12px 20px;
+    font-weight: 700;
+ 
+    position: absolute;
+}
+.wizardcontainer_{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 29px;
+}

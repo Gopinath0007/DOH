@@ -1,0 +1,2 @@
+export const NanoflowCommons$RefreshObject = async () => (await import("C:/Users/gopin/Documents/Mendix/Department Of Health-main/javascriptsource/nanoflowcommons/actions/RefreshObject")).RefreshObject;
+export const MyFirstModule$JavaScript_action = async () => (await import("C:/Users/gopin/Documents/Mendix/Department Of Health-main/javascriptsource/myfirstmodule/actions/JavaScript_action")).JavaScript_action;
